@@ -1,5 +1,18 @@
-function test() {
-    console.log('hello world')
-} 
+// set initial number
+let count = 0;
 
-test()
+//select value
+const value = document.querySelector('#value');
+const btns = document.querySelectorAll(".btn");
+
+btns.forEach(function (btn) {
+    btn.addEventListener('click',function(e) {
+    const styles = e.currentTarget.classList;
+    if(styles.contains('decrease')){
+        count--;
+
+    }
+     value.textContent = count;
+    });
+
+});

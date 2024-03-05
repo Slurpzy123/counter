@@ -1,22 +1,22 @@
-.positive{
+.btn.increase{
     border-radius: 2px;
     border-color: black;
 }
-.positive:hover {
+.btn.increase:hover {
     border-color: lightgreen;
 }
-#wipe{
+.btn.reset{
     border-radius: 2px;
     border-color: black;
 }
-#wipe:hover {
+.btn.reset:hover {
     border-color: red;
 }
-.negative{
+.btn.decrease{
     border-radius: 2px;
     border-color: black;
 }
-.negative:hover {
+.btn.decrease:hover {
     border-color: lightcoral;
 }
 .parent {
@@ -26,17 +26,17 @@
     width: 100%;
   }
   
-  .positive{
+  .btn.increase{
     width: 100px;  /* Or whatever */
     height: 100px; /* Or whatever */
     margin: auto;  /* Magic! */
   }
-  #wipe{
+  .btn.reset{
     width: 100px;  /* Or whatever */
     height: 100px; /* Or whatever */
     margin: auto;  /* Magic! */
   }
-  .negative{
+  .btn.decrease{
     width: 100px;  /* Or whatever */
     height: 100px; /* Or whatever */
     margin: auto;  /* Magic! */
@@ -44,4 +44,8 @@
   #title{
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #value{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
