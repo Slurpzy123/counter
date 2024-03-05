@@ -27,7 +27,10 @@ btns.forEach(function (btn) {
     if(count === 0){
         value.style.color = '#222'
     }
-    
+    if(count > 1000){
+        value.style.color = gold
+    }
+
      value.textContent = count;
     });
 

@@ -1,6 +1,7 @@
 .btn.increase {
     border-radius: 2px;
     border-color: black;
+    border-radius: 5px;
 }
 
 .btn.increase:hover {
@@ -10,15 +11,18 @@
 .btn.reset {
     border-radius: 2px;
     border-color: black;
+    border-radius: 5px;
 }
 
 .btn.reset:hover {
     border-color: red;
+    transform: scale(1.2);
 }
 
 .btn.decrease {
     border-radius: 2px;
     border-color: black;
+    border-radius: 5px;
 }
 
 .btn.decrease:hover {
@@ -68,7 +72,8 @@
 #value {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px;
+    font-size: 110px;
+    margin: 0;
 }
 #logo{
     width: 5%;
