@@ -1,51 +1,77 @@
-.btn.increase{
+.btn.increase {
     border-radius: 2px;
     border-color: black;
 }
+
 .btn.increase:hover {
     border-color: lightgreen;
 }
-.btn.reset{
+
+.btn.reset {
     border-radius: 2px;
     border-color: black;
 }
+
 .btn.reset:hover {
     border-color: red;
 }
-.btn.decrease{
+
+.btn.decrease {
     border-radius: 2px;
     border-color: black;
 }
+
 .btn.decrease:hover {
     border-color: lightcoral;
 }
+
 .parent {
     display: flex;
-    height: 300px; /* Or whatever */
+    height: 300px;
+    /* Or whatever */
     justify-content: center;
     width: 100%;
-  }
-  
-  .btn.increase{
-    width: 100px;  /* Or whatever */
-    height: 100px; /* Or whatever */
-    margin: auto;  /* Magic! */
-  }
-  .btn.reset{
-    width: 100px;  /* Or whatever */
-    height: 100px; /* Or whatever */
-    margin: auto;  /* Magic! */
-  }
-  .btn.decrease{
-    width: 100px;  /* Or whatever */
-    height: 100px; /* Or whatever */
-    margin: auto;  /* Magic! */
-  }
-  #title{
-    text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  #value{
+}
+
+.btn.increase {
+    width: 100px;
+    /* Or whatever */
+    height: 100px;
+    /* Or whatever */
+    margin: auto;
+    /* Magic! */
+}
+
+.btn.reset {
+    width: 100px;
+    /* Or whatever */
+    height: 100px;
+    /* Or whatever */
+    margin: auto;
+    /* Magic! */
+}
+
+.btn.decrease {
+    width: 100px;
+    /* Or whatever */
+    height: 100px;
+    /* Or whatever */
+    margin: auto;
+    /* Magic! */
+}
+
+#title {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+}
+
+#value {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+#logo{
+    width: 5%;
+    height: 5%;
+    float: right;
+}
