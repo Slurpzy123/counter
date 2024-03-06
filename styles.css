@@ -16,7 +16,7 @@
 
 .btn.reset:hover {
     border-color: red;
-    transform: scale(1.2);
+    transform: scale(1.2);;
 }
 
 .btn.decrease {
@@ -35,6 +35,7 @@
     /* Or whatever */
     justify-content: center;
     width: 100%;
+    margin-top: 0px;
 }
 
 .btn.increase {
@@ -78,5 +79,5 @@
 #logo{
     width: 5%;
     height: 5%;
-    float: right;
+    margin-left: 95%;
 }
